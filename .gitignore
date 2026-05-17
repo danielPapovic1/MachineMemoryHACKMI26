@@ -1,0 +1,8 @@
+AGENTS.md
+blueprints/
+.vscode/
+__pycache__
+node_moduels/
+.agents/
+.env
+dist/
