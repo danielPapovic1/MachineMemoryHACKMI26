@@ -1,0 +1,11 @@
+Work Order ID,Asset ID,Date Opened,Date Closed,Plant Zone,Problem,Priority,Tech Notes,Action Taken,Downtime Minutes,Labor Hours,Technician,Status
+WO-2001,PRESS-1,2026-05-01T07:45:00,2026-05-01T09:15:00,Stamping,Hydraulic temperature warning,Medium,Oil temperature rose during long run,Checked cooler fan and cleaned intake screen,24,1.25,Maria Chen,Closed
+WO-2002,PRESS-2,2026-05-01T10:20:00,2026-05-01T12:05:00,Stamping,Bearing vibration during press cycle,High,Vibration visible near feed-side bearing housing,Lubricated bearing and scheduled follow-up inspection,45,2.0,Dev Patel,Closed
+WO-2003,CNC-1,2026-05-02T08:10:00,2026-05-02T08:55:00,Machining,Coolant flow restriction,Low,Coolant stream weakened during roughing cycle,Cleaned coolant filter and verified pump flow,18,0.75,Alicia Brooks,Closed
+WO-2004,CNC-2,2026-05-02T11:35:00,2026-05-02T13:10:00,Machining,Intermittent spindle alarm,Medium,Alarm appeared after warm start and cleared on reset,Tightened spindle sensor connector,32,1.5,Noah Singh,Closed
+WO-2005,WELD-1,2026-05-03T06:50:00,2026-05-03T08:30:00,Welding,Torch alignment drift,Medium,Weld path shifted slightly on repeat cycles,Recalibrated torch frame and checked fixture stop,36,1.75,Jules Rivera,Closed
+WO-2006,COMP-1,2026-05-03T14:05:00,2026-05-03T16:40:00,Utilities,High discharge pressure,High,Pressure climbed above normal range during demand spike,Inspected regulator and cleaned intake filter,58,2.5,Maria Chen,Closed
+WO-2007,CONV-1,2026-05-04T09:25:00,2026-05-04T10:00:00,Assembly,Belt tracking issue,Low,Belt drifted toward guard rail at transfer point,Adjusted tracking roller and checked belt tension,14,0.5,Dev Patel,Closed
+WO-2008,PAINT-1,2026-05-04T13:50:00,2026-05-04T15:20:00,Finishing,Booth filter pressure warning,Medium,Filter differential pressure increased during afternoon run,Replaced pre-filter and logged pressure after restart,28,1.25,Alicia Brooks,Closed
+WO-2009,PRESS-2,2026-05-05T07:15:00,2026-05-05T10:10:00,Stamping,Overheating near feed motor,High,Operator smelled hot oil near feed motor,Checked lubrication line and topped bearing grease,64,2.75,Noah Singh,Closed
+WO-2010,COMP-1,2026-05-05T12:40:00,,Utilities,Oil temperature alarm,Critical,Compressor oil temperature alarm repeated twice,Opened follow-up work order for cooler inspection,82,3.0,Jules Rivera,Open
