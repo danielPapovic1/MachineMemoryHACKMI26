@@ -1,0 +1,129 @@
+[
+  {
+    "response_id": "machine-snapshot-PRESS-2-20260517T0828317446720000",
+    "received_at": "2026-05-17T08:28:31.744672+00:00",
+    "ai_type": "machine snapshot",
+    "response_text": "```json\n{\n  \"summary\": \"Hydraulic Press 2 is experiencing recurring issues with bearing vibration and overheating near the feed motor, indicating potential mechanical failure.\",\n  \"urgency\": \"high\",\n  \"predicted_downtime_if_ignored\": \"extended downtime due to potential catastrophic failure\",\n  \"downtime_reasoning\": \"repeated patterns of bearing vibration and overheating, recent logs showing open issues and high severity\",\n  \"evidence\": [\n    \"8 matching maintenance records found\",\n    \"Repeated pattern: Bearing vibration during press cycle\",\n    \"Overheating near feed motor issue logged multiple times\"\n  ],\n  \"recommended_next_step\": \"schedule planned downtime for bearing replacement and lubrication inspection\",\n  \"confidence\": \"high\"\n}\n```",
+    "metadata": {
+      "machine_id": "PRESS-2",
+      "machine_name": "Hydraulic Press 2",
+      "machine_type": "Hydraulic Press",
+      "zone": "Stamping",
+      "provider": "ibm_watsonx_ai",
+      "provider_call_made": true,
+      "provider_response": {
+        "usage": {
+          "completion_tokens": 157,
+          "prompt_tokens": 2098,
+          "total_tokens": 2255
+        },
+        "finish_reason": "stop"
+      },
+      "urgency": "high",
+      "confidence": "high",
+      "matching_history_records": 8
+    }
+  },
+  {
+    "response_id": "machine-snapshot-CONV-1-20260517T0831068832520000",
+    "received_at": "2026-05-17T08:31:06.883252+00:00",
+    "ai_type": "machine snapshot",
+    "response_text": "```json\n{\n  \"summary\": \"Recurring belt tracking issue on Main Conveyor 1\",\n  \"urgency\": \"medium\",\n  \"predicted_downtime_if_ignored\": \"13-14 minutes\",\n  \"downtime_reasoning\": \"Based on recent logs of similar issues\",\n  \"evidence\": [\n    \"4 matching maintenance records with belt tracking issues\",\n    \"Recent logs show 52 minutes of downtime due to belt tracking issues\",\n    \"Repeated pattern of belt tracking issues\"\n  ],\n  \"recommended_next_step\": \"Schedule preventive maintenance to inspect and adjust belt tracking\",\n  \"confidence\": \"medium\"\n}\n```",
+    "metadata": {
+      "machine_id": "CONV-1",
+      "machine_name": "Main Conveyor 1",
+      "machine_type": "Conveyor",
+      "zone": "Assembly",
+      "provider": "ibm_watsonx_ai",
+      "provider_call_made": true,
+      "provider_response": {
+        "usage": {
+          "completion_tokens": 132,
+          "prompt_tokens": 1601,
+          "total_tokens": 1733
+        },
+        "finish_reason": "stop"
+      },
+      "urgency": "medium",
+      "confidence": "medium",
+      "matching_history_records": 4
+    }
+  },
+  {
+    "response_id": "machine-snapshot-CNC-2-20260517T1256062829540000",
+    "received_at": "2026-05-17T12:56:06.282954+00:00",
+    "ai_type": "machine snapshot",
+    "response_text": "```json\n{\n  \"summary\": \"Recurring intermittent spindle alarm issue on CNC Mill 2\",\n  \"urgency\": \"medium\",\n  \"predicted_downtime_if_ignored\": \"potential for increased frequency and duration of downtime\",\n  \"downtime_reasoning\": \"repeated pattern of spindle alarm issues and recent logged downtime\",\n  \"evidence\": [\n    \"4 matching maintenance records with intermittent spindle alarm issue\",\n    \"128 minutes of logged downtime\",\n    \"recent logs show repeated instances of spindle alarm\"\n  ],\n  \"recommended_next_step\": \"schedule maintenance to inspect and verify spindle sensor and encoder connections\",\n  \"confidence\": \"medium\"\n}\n```",
+    "metadata": {
+      "machine_id": "CNC-2",
+      "machine_name": "CNC Mill 2",
+      "machine_type": "CNC Mill",
+      "zone": "Machining",
+      "provider": "ibm_watsonx_ai",
+      "provider_call_made": true,
+      "provider_response": {
+        "usage": {
+          "completion_tokens": 138,
+          "prompt_tokens": 1640,
+          "total_tokens": 1778
+        },
+        "finish_reason": "stop"
+      },
+      "urgency": "medium",
+      "confidence": "medium",
+      "matching_history_records": 4
+    }
+  },
+  {
+    "response_id": "deep-review-PRESS-2-20260517T1414293517040000",
+    "received_at": "2026-05-17T14:14:29.351704+00:00",
+    "ai_type": "deep review",
+    "response_text": "```json\n{\n  \"machine_id\": \"PRESS-2\",\n  \"machine_name\": \"Hydraulic Press 2\",\n  \"review_status\": \"high_risk\",\n  \"executive_summary\": \"The Hydraulic Press 2 is currently at high risk due to repeated bearing vibration and overheating issues near the feed motor, resulting in significant downtime and labor hours. Immediate attention is required to prevent further escalation.\",\n  \"current_condition\": {\n    \"assessment\": \"The machine is experiencing recurring issues with bearing vibration during the press cycle and overheating near the feed motor, indicating potential wear and tear on critical components.\",\n    \"evidence_strength\": \"high\",\n    \"why\": [\n      \"8 matching maintenance records with high severity issues\",\n      \"5 open or unresolved maintenance items\",\n      \"Repeated pattern of bearing vibration during press cycle\",\n      \"Overheating near feed motor with visible vibration and burning oil smell\"\n    ]\n  },\n  \"key_findings\": [\n    {\n      \"finding\": \"Bearing vibration during press cycle\",\n      \"evidence\": [\n        \"WO-2002\",\n        \"WO-2102\",\n        \"WO-2202\",\n        \"WO-2302\"\n      ],\n      \"severity\": \"high\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"finding\": \"Overheating near feed motor\",\n      \"evidence\": [\n        \"WO-2009\",\n        \"WO-2109\",\n        \"WO-2209\",\n        \"WO-2309\"\n      ],\n      \"severity\": \"high\",\n      \"confidence\": \"high\"\n    }\n  ],\n  \"downtime_exposure\": {\n    \"estimated_downtime_range_minutes\": {\n      \"low\": 45,\n      \"high\": 125\n    },\n    \"basis\": \"Historical maintenance records and similar events\",\n    \"estimated_cost_range\": {\n      \"low\": 9900,\n      \"high\": 27500,\n      \"currency\": \"USD\"\n    },\n    \"cost_basis\": \"Downtime cost per minute and estimated downtime range\",\n    \"confidence\": \"medium\"\n  },\n  \"preventive_action_plan\": [\n    {\n      \"priority\": 1,\n      \"action\": \"Inspect bearing assembly and lubrication flow\",\n      \"why\": \"To identify potential wear and tear on critical components\",\n      \"supporting_evidence\": [\n        \"WO-2002\",\n        \"WO-2102\",\n        \"WO-2202\",\n        \"WO-2302\"\n      ],\n      \"recommended_timing\": \"immediate\",\n      \"expected_downtime_reduction\": \"30-50%\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"priority\": 2,\n      \"action\": \"Replace worn bearings and monitor next production run\",\n      \"why\": \"To prevent further escalation of bearing vibration issues\",\n      \"supporting_evidence\": [\n        \"WO-2002\",\n        \"WO-2102\",\n        \"WO-2202\",\n        \"WO-2302\"\n      ],\n      \"recommended_timing\": \"next_shift\",\n      \"expected_downtime_reduction\": \"20-40%\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"priority\": 3,\n      \"action\": \"Check lubrication line and top bearing grease\",\n      \"why\": \"To prevent overheating issues near the feed motor\",\n      \"supporting_evidence\": [\n        \"WO-2009\",\n        \"WO-2109\",\n        \"WO-2209\",\n        \"WO-2309\"\n      ],\n      \"recommended_timing\": \"planned_window\",\n      \"expected_downtime_reduction\": \"10-30%\",\n      \"confidence\": \"medium\"\n    }\n  ],\n  \"root_cause_hypotheses\": [\n    {\n      \"hypothesis\": \"Worn bearings causing vibration during press cycle\",\n      \"supporting_evidence\": [\n        \"WO-2002\",\n        \"WO-2102\",\n        \"WO-2202\",\n        \"WO-2302\"\n      ],\n      \"contradicting_or_missing_evidence\": [],\n      \"confidence\": \"high\"\n    },\n    {\n      \"hypothesis\": \"Insufficient lubrication causing overheating near feed motor\",\n      \"supporting_evidence\": [\n        \"WO-2009\",\n        \"WO-2109\",\n        \"WO-2209\",\n        \"WO-2309\"\n      ],\n      \"contradicting_or_missing_evidence\": [],\n      \"confidence\": \"medium\"\n    }\n  ],\n  \"monitoring_plan\": [\n    {\n      \"signal_to_watch\": \"Bearing vibration during press cycle\",\n      \"why_it_matters\": \"Indicates potential wear and tear on critical components\",\n      \"trigger_for_escalation\": \"Increased vibration or temperature\"\n    },\n    {\n      \"signal_to_watch\": \"Overheating near feed motor\",\n      \"why_it_matters\": \"Indicates potential lubrication issues or component",
+    "metadata": {
+      "machine_id": "PRESS-2",
+      "machine_name": "Hydraulic Press 2",
+      "machine_type": "Hydraulic Press",
+      "zone": "Stamping",
+      "provider": "ibm_watsonx_ai",
+      "provider_call_made": true,
+      "provider_response": {
+        "usage": {
+          "completion_tokens": 1024,
+          "prompt_tokens": 14259,
+          "total_tokens": 15283
+        },
+        "finish_reason": "length"
+      },
+      "review_status": "completed",
+      "matching_history_records": 8,
+      "recent_log_count": 8,
+      "all_matching_log_count": 8
+    }
+  },
+  {
+    "response_id": "deep-review-WELD-1-20260517T1501041391980000",
+    "received_at": "2026-05-17T15:01:04.139198+00:00",
+    "ai_type": "deep review",
+    "response_text": "```json\n{\n  \"machine_id\": \"WELD-1\",\n  \"machine_name\": \"Robotic Welder 1\",\n  \"review_status\": \"elevated_risk\",\n  \"executive_summary\": \"The Robotic Welder 1 is experiencing recurring torch alignment drift issues, resulting in 158 minutes of logged downtime and an estimated cost exposure of $25,280. The machine's criticality and repeated issue patterns warrant elevated attention to prevent further downtime and potential equipment damage.\",\n  \"current_condition\": {\n    \"assessment\": \"The machine is currently experiencing recurring torch alignment drift issues, which have resulted in significant downtime and cost exposure.\",\n    \"evidence_strength\": \"high\",\n    \"why\": [\n      \"Recurring issue pattern detected\",\n      \"Logged downtime is above one hour\",\n      \"4 matching maintenance records found\",\n      \"Repeated pattern: Torch alignment drift\",\n      \"158 minutes of logged downtime\"\n    ]\n  },\n  \"key_findings\": [\n    {\n      \"finding\": \"Torch alignment drift is a recurring issue\",\n      \"evidence\": [\n        \"4 matching maintenance records\",\n        \"Repeated pattern: Torch alignment drift\",\n        \"158 minutes of logged downtime\"\n      ],\n      \"severity\": \"medium\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"finding\": \"Downtime and cost exposure are significant\",\n      \"evidence\": [\n        \"158 minutes of logged downtime\",\n        \"Estimated cost exposure: $25,280\"\n      ],\n      \"severity\": \"high\",\n      \"confidence\": \"high\"\n    }\n  ],\n  \"downtime_exposure\": {\n    \"estimated_downtime_range_minutes\": {\n      \"low\": 36,\n      \"high\": 42\n    },\n    \"basis\": \"Historical maintenance records and similar events\",\n    \"estimated_cost_range\": {\n      \"low\": 5760,\n      \"high\": 6720,\n      \"currency\": \"USD\"\n    },\n    \"cost_basis\": \"Downtime cost per minute and estimated downtime range\",\n    \"confidence\": \"medium\"\n  },\n  \"preventive_action_plan\": [\n    {\n      \"priority\": 1,\n      \"action\": \"Inspect and recalibrate the torch alignment system\",\n      \"why\": \"To prevent further torch alignment drift issues and reduce downtime\",\n      \"supporting_evidence\": [\n        \"Recurring issue pattern detected\",\n        \"Logged downtime is above one hour\"\n      ],\n      \"recommended_timing\": \"immediate\",\n      \"expected_downtime_reduction\": \"30-50%\",\n      \"confidence\": \"high\"\n    },\n    {\n      \"priority\": 2,\n      \"action\": \"Verify fixture locating surfaces and recalibrate touch points\",\n      \"why\": \"To ensure proper fixture alignment and prevent torch alignment drift\",\n      \"supporting_evidence\": [\n        \"Operator notes and resolution notes from maintenance records\"\n      ],\n      \"recommended_timing\": \"next_shift\",\n      \"expected_downtime_reduction\": \"20-30%\",\n      \"confidence\": \"medium\"\n    },\n    {\n      \"priority\": 3,\n      \"action\": \"Schedule a planned maintenance window to perform routine maintenance and inspections\",\n      \"why\": \"To prevent unexpected downtime and ensure equipment reliability\",\n      \"supporting_evidence\": [\n        \"Maintenance history and similar events\"\n      ],\n      \"recommended_timing\": \"planned_window\",\n      \"expected_downtime_reduction\": \"10-20%\",\n      \"confidence\": \"medium\"\n    }\n  ],\n  \"root_cause_hypotheses\": [\n    {\n      \"hypothesis\": \"Torch alignment drift is caused by worn or loose fixture locating surfaces\",\n      \"supporting_evidence\": [\n        \"Operator notes and resolution notes from maintenance records\"\n      ],\n      \"contradicting_or_missing_evidence\": [\n        \"No direct evidence of worn or loose fixture locating surfaces\"\n      ],\n      \"confidence\": \"medium\"\n    },\n    {\n      \"hypothesis\": \"Torch alignment drift is caused by incorrect torch calibration\",\n      \"supporting_evidence\": [\n        \"Recurring issue pattern detected\"\n      ],\n      \"contradicting_or_missing_evidence\": [\n        \"No direct evidence of incorrect torch calibration\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"monitoring_plan\": [\n    {\n      \"signal_to_watch\": \"Torch alignment drift\",\n      \"why_it_matters\": \"To prevent further downtime and equipment damage\",\n      \"trigger_for_escalation\": \"Recurring issue pattern detected or logged downtime exceeds 1 hour\"\n    }\n  ],\n  \"missing_data\": [\n    \"Sensor data for real-time monitoring\"\n  ],\n  \"safe_to_run_summary\": \"The machine is currently not safe to run without addressing the recurring torch alignment drift issues.\",\n  \"final_recommendation\": {\n    \"decision\": \"schedule_maintenance\",\n    \"reason\": \"To prevent further downtime and equipment damage, and to address the recurring",
+    "metadata": {
+      "machine_id": "WELD-1",
+      "machine_name": "Robotic Welder 1",
+      "machine_type": "Robotic Welder",
+      "zone": "Welding",
+      "provider": "Orchestrate",
+      "provider_call_made": true,
+      "provider_response": {
+        "usage": {
+          "completion_tokens": 1024,
+          "prompt_tokens": 9060,
+          "total_tokens": 10084
+        },
+        "finish_reason": "length"
+      },
+      "review_status": "completed",
+      "matching_history_records": 4,
+      "recent_log_count": 4,
+      "all_matching_log_count": 4
+    }
+  }
+]

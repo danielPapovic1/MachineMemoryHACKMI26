@@ -1,0 +1,6 @@
+fastapi==0.115.9
+ibm-watsonx-ai
+python-dotenv
+python-multipart==0.0.20
+requests
+uvicorn==0.34.0
