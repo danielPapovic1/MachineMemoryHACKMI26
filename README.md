@@ -184,7 +184,7 @@ Michigan manufacturers operate in a practical reality: downtime is costly, skill
 
 Machine Memory gives these teams a modernization path that works with existing operations. It preserves technician knowledge, centralizes maintenance history, and helps supervisors make faster, evidence-backed decisions without forcing a full equipment overhaul.
 
-## Judging Highlights
+## Highlights
 
 - Practical problem with clear Michigan manufacturing relevance
 - Works with messy real-world maintenance exports
@@ -192,3 +192,21 @@ Machine Memory gives these teams a modernization path that works with existing o
 - Combines deterministic risk scoring with grounded AI explanation
 - Demonstrates a usable end-to-end workflow
 - Leaves a realistic path toward CMMS, sensor, and production database integration
+
+## Screenshots
+
+### Dashboard
+
+[![Machine Memory dashboard](https://i.postimg.cc/sg8jPh38/Screenshot-2026-05-19-182422.png)](https://i.postimg.cc/sg8jPh38/Screenshot-2026-05-19-182422.png)
+
+### Upload Logs
+
+[![Machine Memory upload logs](https://i.postimg.cc/Gpw0hJcK/Screenshot-2026-05-19-183259.png)](https://i.postimg.cc/Gpw0hJcK/Screenshot-2026-05-19-183259.png)
+
+### Machines
+
+[![Machine Memory machines page](https://i.postimg.cc/Znq2Dwc6/Screenshot-2026-05-19-183337.png)](https://i.postimg.cc/Znq2Dwc6/Screenshot-2026-05-19-183337.png)
+
+### AI Insights
+
+[![Machine Memory AI insights](https://i.postimg.cc/fRY254NH/Screenshot-2026-05-19-183526.png)](https://i.postimg.cc/fRY254NH/Screenshot-2026-05-19-183526.png)
