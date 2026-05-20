@@ -5,6 +5,7 @@ Machine Memory helps manufacturing teams prevent unplanned downtime by turning m
 It is built for legacy manufacturing environments, especially small and mid-sized Michigan manufacturers that rely on critical equipment, CSV exports, technician notes, and years of disconnected maintenance history. Machine Memory does not require replacing existing machines or technician workflows. It modernizes faster by making the data teams already have easier to trust, search, score, and act on.
 
 **Mission:** Modernize existing operations without replacing equipment. 
+**Demo:** [Link](https://docs.google.com/videos/d/1pp9dcBhBQmkmsWyu4IhoLXDchrHUHJTktM8vyROsxvw/edit?usp=sharing)
 
 ## The Problem
 
